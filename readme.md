@@ -11,9 +11,9 @@ This is a service for Toy Robot Simulator.
 
 ### To run this project(V2, UI version)
 
-The robot is free to roam around the surface of a table, key features for this version:
+The robot is free to roam around the surface of a table, Key features of this release:
 
-- The platform is a simple UI interface.
+- A simple UI interface.
 - Support the following commands:
     - PLACE X,Y,F: put the toy robot on the table in position X,Y and facing NORTH, SOUTH, EAST or WEST.
     - MOVE: move the toy robot one unit forward in the direction it is currently facing.
@@ -26,6 +26,7 @@ The robot is free to roam around the surface of a table, key features for this v
     - LEFT(LEFT)
     - RIGHT(RIGHT)
     - UP(MOVE)
+
 - The size of the table can be changed by the user.
 
   <img alt="img.png" src="doc/img/img.png" height="300"/>
@@ -34,7 +35,7 @@ The robot is free to roam around the surface of a table, key features for this v
 
   <img alt="img_1.png" src="doc/img/img_1.png" height="300"/>
 
-- The robot can explore the table.
+- Automatic exploration by algorithm of Traveling Salesperson Problem.
 
   <img alt="img_2.png" src="doc/img/img_2.png" height="300"/>
   <img alt="img_3.png" src="doc/img/img_3.png" height="300"/>
@@ -84,6 +85,7 @@ There are several files in data folder.
 
 ### Future Plan
 
-- Recording the position status of each step
-- Using logging framework
-- Using a visual interface to show how the robot executes commands, for instance, TK(simple), Unity or PyRep
+- Support obstacles on the table.
+- Support multiple robots on the table.
+- Provide multiple algorithms for robot exploration.
+- Support the robot to learn from the environment.
